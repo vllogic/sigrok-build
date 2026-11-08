@@ -2,6 +2,7 @@ name: Build sigrok artifacts
 
 on:
   push:
+    branches: [master]
   workflow_dispatch:
   workflow_call:
 
